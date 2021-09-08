@@ -1,0 +1,27 @@
+name: share_everywhere
+description: Social sharing for all platforms.
+version: 0.0.1
+homepage: https://pub.dev
+publish_to: https://pub.dev
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.0.10
+  share_plus: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+    assets:
+      - icons/facebook.png
+      - icons/linkedin.png
+      - icons/twitter.png
+
