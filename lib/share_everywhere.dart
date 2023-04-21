@@ -1,7 +1,6 @@
 library share_everywhere;
 
 import 'package:flutter/material.dart';
-import 'package:flutter/foundation.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:share_plus/share_plus.dart';
 
@@ -63,8 +62,8 @@ class SocialConfig extends Object {
     );
   }
 
-  void _launchURL(_url) async => await canLaunch(_url)
-      ? await launch(
+  void _launchURL(_url) async => await canLaunchUrl(_url)
+      ? await launchUrl(
           _url,
           webOnlyWindowName: "_blank",
         )

@@ -1,6 +1,6 @@
 name: share_everywhere
-description: Social sharing for all platforms.
-version: 0.0.1
+description: Social sharing for all platforms. This plugin is a wrapper for the native share plugin for Android, iOS and Web.
+version: 0.0.2
 homepage: https://pub.dev
 publish_to: https://pub.dev
 
@@ -11,8 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  url_launcher: ^6.0.10
-  share_plus: ^2.1.4
+  url_launcher: ^6.1.10
+  share_plus: ^6.3.2
 
 dev_dependencies:
   flutter_test:
